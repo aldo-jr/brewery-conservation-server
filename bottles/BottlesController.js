@@ -119,7 +119,7 @@ router.get('/getinfos', function (req, res) {
     }
   ];
   res.header("Access-Control-Allow-Origin", "*");
-  res;header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x-access-token");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x-access-token");
   res.json(infos);
 });
 
