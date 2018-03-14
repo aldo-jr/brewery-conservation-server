@@ -124,3 +124,4 @@ router.get('/getinfos', function (req, res) {
 });
 
 module.exports = router;
+
